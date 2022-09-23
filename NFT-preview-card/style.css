@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+
+section {
+  background-color: hsl(217, 54%, 11%);
+  border-radius: 10px;
+  max-width: 30rem;
+  padding: 2rem;
+  transition: ease-in 0.3s;
+}
+
+section:hover {
+  box-shadow: 0.3px 0.3px #888888;
+}
+
+.cube-icon {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.cube-icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.heading-text {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.heading-text:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.text-desc {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.price-plus-timeframe {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.pricing-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.eth-icon {
+  margin-right: 1rem;
+}
+
+.cost {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.eligible-timespan {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.creator-avatar {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.acknowledgement {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.creator-text-style {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: inline;
+  margin-right: 3px;
+}
+
+.creator-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.creator-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
